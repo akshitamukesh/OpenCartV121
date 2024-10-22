@@ -1,0 +1,59 @@
+15:24:50.344 [main] INFO  testCases.TC001_AccountRegistrationTest - **** Starting TC001_AccountRegistrationTest ****
+15:24:52.471 [main] INFO  testCases.TC001_AccountRegistrationTest - clicked on MyAccount
+15:24:55.069 [main] INFO  testCases.TC001_AccountRegistrationTest - clicked on Register
+15:24:57.075 [main] INFO  testCases.TC001_AccountRegistrationTest - providing customer details
+15:25:06.086 [main] INFO  testCases.TC001_AccountRegistrationTest - validating expected message
+15:25:06.126 [main] ERROR testCases.TC001_AccountRegistrationTest - Test error...
+15:25:06.126 [main] DEBUG testCases.TC001_AccountRegistrationTest - Test debug...
+15:27:23.881 [main] INFO  testCases.TC001_AccountRegistrationTest - **** Starting TC001_AccountRegistrationTest ****
+15:27:26.023 [main] INFO  testCases.TC001_AccountRegistrationTest - clicked on MyAccount
+15:27:28.570 [main] INFO  testCases.TC001_AccountRegistrationTest - clicked on Register
+15:27:30.582 [main] INFO  testCases.TC001_AccountRegistrationTest - providing customer details
+15:27:38.145 [main] INFO  testCases.TC001_AccountRegistrationTest - validating expected message
+15:27:38.195 [main] INFO  testCases.TC001_AccountRegistrationTest - **** Finished TC001_AccountRegistrationTest ****
+15:30:05.313 [main] INFO  testCases.TC001_AccountRegistrationTest - **** Starting TC001_AccountRegistrationTest ****
+15:30:07.447 [main] INFO  testCases.TC001_AccountRegistrationTest - clicked on MyAccount
+15:30:10.063 [main] INFO  testCases.TC001_AccountRegistrationTest - clicked on Register
+15:30:12.077 [main] INFO  testCases.TC001_AccountRegistrationTest - providing customer details
+15:30:19.710 [main] INFO  testCases.TC001_AccountRegistrationTest - validating expected message
+15:30:19.748 [main] INFO  testCases.TC001_AccountRegistrationTest - **** Finished TC001_AccountRegistrationTest ****
+15:31:05.145 [main] INFO  testCases.TC001_AccountRegistrationTest - **** Starting TC001_AccountRegistrationTest ****
+15:31:07.268 [main] INFO  testCases.TC001_AccountRegistrationTest - clicked on MyAccount
+15:31:09.975 [main] INFO  testCases.TC001_AccountRegistrationTest - clicked on Register
+15:31:11.985 [main] INFO  testCases.TC001_AccountRegistrationTest - providing customer details
+15:31:19.641 [main] INFO  testCases.TC001_AccountRegistrationTest - validating expected message
+15:31:19.696 [main] ERROR testCases.TC001_AccountRegistrationTest - Test failed...
+15:31:19.697 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug logs...
+15:31:19.711 [main] ERROR testCases.TC001_AccountRegistrationTest - Catching
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertTrue(Assert.java:67) ~[testng-7.10.2.jar:7.10.2]
+	at testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:60) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
