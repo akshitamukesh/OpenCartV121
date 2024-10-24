@@ -7,6 +7,7 @@ C:\PavanSelenium\OpenCartV121\src\test\java\testBase\BaseClass.java
 C:\PavanSelenium\OpenCartV121\src\test\java\testCases\TC001_AccountRegistrationTest.java
 C:\PavanSelenium\OpenCartV121\src\test\java\testCases\TC002_LoginTest.java
 C:\PavanSelenium\OpenCartV121\src\test\java\testCases\TC003_LoginDDT.java
+C:\PavanSelenium\OpenCartV121\src\test\java\testCases\TC_004_Search.java
 C:\PavanSelenium\OpenCartV121\src\test\java\utilities\DataProviders.java
 C:\PavanSelenium\OpenCartV121\src\test\java\utilities\ExcelUtility.java
 C:\PavanSelenium\OpenCartV121\src\test\java\utilities\ExtentReportManager.java
